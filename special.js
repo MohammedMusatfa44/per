@@ -10,11 +10,11 @@ $(document).ready(function(){
             var show = $($(this).data("pro"))
             $(show).slideDown()
 
-
+            close
 
         })
     })  
-          $(".card-img .img-all").on("click",function(){
+            $(".card-img .img-all").on("click",function(){
                 $($(this).data("in")).removeClass("d-none").animate({
                     opacity:1,
                 },500);
@@ -32,12 +32,12 @@ $(document).ready(function(){
                 },500);
                 $(".bgg").removeClass("d-none")
             })
-            $(".more svg").on("click",function(){
-                console.log("dd");
-                $(".card-aa").removeClass("d-none").animate({
-                    opacity:1,
-                },500);
-            })
+            // $(".more svg").on("click",function(){
+            //     console.log("dd");
+            //     $(".card-aa").removeClass("d-none").animate({
+            //         opacity:1,
+            //     },500);
+            // })
 
             $(".close2").on("click",function()
             {
